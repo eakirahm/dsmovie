@@ -6,10 +6,10 @@ import { BASE_URL } from 'utils/requests';
 import './styles.css';
 
 type Props = {
-    movieId : string;
+    movieId: string;
 }
 
-function FormCard( { movieId } : Props) {
+function FormCard({ movieId }: Props) {
 
     const [movie, setMovie] = useState<Movie>();
 
